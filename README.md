@@ -3,6 +3,7 @@ Matrix
 A special case of nested matrix lists. 
 These are rectangular tables filled with some kind of values, usually numbers.
 ----
+````
 rows, cols = int(input()), int(input())
 matrix = [[0]*cols for _ in range (rows)]
 for i in range (rows):
