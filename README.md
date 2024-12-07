@@ -18,4 +18,14 @@ for j in range (cols):
         print (matrix[i][j], end = " ")
     print ()
 ````
-
+````python
+n = int(input())
+matrix = [[int(num) for num in input().split()] for _ in range(n)] 
+for i in range(n):
+    cnt = 0
+    average = sum(matrix[i]) / n 
+    for j in range(n):
+        if matrix[i][j] > average:
+            cnt += 1
+    print(cnt)
+````
