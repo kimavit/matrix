@@ -7,7 +7,8 @@ These are rectangular tables filled with some kind of values, usually numbers.
 rows, cols = int(input()), int(input())
 matrix = [[0]*cols for _ in range (rows)]
 for i in range (rows):
-    for j in range (cols):
+    for j in range (cols
+    
         matrix [i][j] = input()
 for k in range (rows):
     print (*matrix[k], end = "\n")
@@ -29,3 +30,22 @@ for i in range(n):
             cnt += 1
     print(cnt)
 ````
+Matrix addition
+----
+Свойства сложения матриц:
+1. Commutativity – the result of matrix addition does not depend on their permutation.
+2. Associativity – the result of matrix addition does not depend on the placement of brackets.
+3. Addition with a 0 matrix – for any matrix, there is a neutral element, which is the zero matrix, addition with which does not change the original matrix.
+4. The existence of an opposite matrix – for a non−zero matrix A, there is always a matrix −A, addition from which will result in a 0 matrix.
+----
+Multiplying a matrix by a number
+----
+Properties of matrix multiplication by a number:
+1. One is the neutral number of multiplication of any matrix, the result is the original matrix.
+2. The result of multiplying any matrix by 0 is a zero matrix.
+3. For matrices of the same size and a real number, the distributivity property of multiplication with respect to addition is fulfilled.
+4. For any matrix and the sum of real numbers, the distributivity property holds.
+5. For any matrix and the product of any real numbers, the associativity property of multiplication holds.
+----
+Multiplying a matrix by a matrix
+----
