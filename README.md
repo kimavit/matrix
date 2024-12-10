@@ -32,7 +32,7 @@ for i in range(n):
 ````
 Matrix addition
 ----
-Свойства сложения матриц:
+Properties of matrix addition:
 1. Commutativity – the result of matrix addition does not depend on their permutation.
 2. Associativity – the result of matrix addition does not depend on the placement of brackets.
 3. Addition with a 0 matrix – for any matrix, there is a neutral element, which is the zero matrix, addition with which does not change the original matrix.
