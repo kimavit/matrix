@@ -1,0 +1,14 @@
+xy = input()
+x = '87654321'.index(xy[1])
+y = 'abcdefgh'.index(xy[0])      
+board = [['.' for _ in range(8)] for _ in range(8)]
+board[x][y] = 'N'
+
+for l in range(8):
+  for h in range(8):
+      if (x-l)**2 + (y-h)**2 == 5:
+          board[l][h] = "*"
+
+for row in board:
+   print(*row)
+
