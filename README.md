@@ -32,7 +32,7 @@ for i in range(n):
     print(cnt)
 ````
 
-#### Matrix addition
+### Matrix addition
 
 Properties of matrix addition:
 1. Commutativity – the result of matrix addition does not depend on their permutation.
@@ -41,7 +41,7 @@ Properties of matrix addition:
 4. The existence of an opposite matrix – for a non−zero matrix A, there is always a matrix −A, addition from which will result in a 0 matrix.
 ----
 
-#### Multiplying a matrix by a number
+### Multiplying a matrix by a number
 
 Properties of matrix multiplication by a number:
 1. One is the neutral number of multiplication of any matrix, the result is the original matrix.
