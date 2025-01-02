@@ -57,4 +57,3 @@ Multiplication of two matrices A & B is the calculation of the resulting matrix 
 One matrix can be multiplied by another only when the number of columns in the first matrix matches the number of rows in the second matrix.
 ```` ruby
 
-----
