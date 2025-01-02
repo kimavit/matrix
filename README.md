@@ -51,7 +51,7 @@ Properties of matrix multiplication by a number:
 5. For any matrix and the product of any real numbers, the associativity property of multiplication holds.
 ----
 
-#### Multiplying a matrix by a matrix
+### Multiplying a matrix by a matrix
 
 Multiplication of two matrices A & B is the calculation of the resulting matrix C, each element of which c[i][j] is equal to the sum of the products of the elements corresponding to the row of the first matrix a[i][r] and the column of the second matrix b[r][j].
 One matrix can be multiplied by another only when the number of columns in the first matrix matches the number of rows in the second matrix.
